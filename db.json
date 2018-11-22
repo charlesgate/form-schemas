@@ -143,11 +143,12 @@
                     }
                 },
                 {
-                    "label": "Button",
+                    "label": "Klik untuk mendaftar",
                     "tag": "button",
                     "attributes": {
                         "type": "submit"
-                    }
+                    },
+                    "text": "Daftar"
                 },
                 {
                     "label": "Notes",
