@@ -1,0 +1,162 @@
+[
+    {
+        "tag": "form",
+        "attributes": {
+            "method": "POST",
+            "id": "loginform"
+        },
+        "fields": [
+            {
+                "tag": "input",
+                "label": "Username",
+                "help": "Maksimum 11 karakter",
+                "attributes": {
+                    "type": "text",
+                    "name": "username",
+                    "id": "username",
+                    "maxlength": "11"
+                }
+
+            },
+            {
+                "tag": "input",
+                "label": "Alamat Email",
+                "attributes": {
+                    "type": "email",
+                    "name": "email",
+                    "id": "email"
+                }
+            },
+            {
+                "tag": "input",
+                "label": "Password",
+                "attributes": {
+                    "type": "password",
+                    "name": "password",
+                    "id": "password",
+                    "maxlength": "15"
+                }
+            },
+            {
+                "tag": "input",
+                "label": "Konfirmasi Password",
+                "attributes": {
+                    "type": "password",
+                    "name": "repassword",
+                    "id": "repassword",
+                    "maxlength": "15"
+                }
+            },
+            {
+                "tag": "input",
+                "label": "No. Telepon",
+                "attributes": {
+                    "type": "text",
+                    "name": "phone",
+                    "id": "phone",
+                    "value": "+62"
+                }
+            },
+            {
+                "tag": "input",
+                "label": "Kode Validasi",
+                "attributes": {
+                    "type": "text",
+                    "name": "captcha",
+                    "id": "captcha",
+                    "maxlength": "4"
+                }
+            },
+            {
+                "tag": "img",
+                "attributes": {
+                    "id": "captcha",
+                    "src": "https://juara303.club/captcha?rand=48492",
+                    "alt": "CAPTCHA"
+                }
+            },
+            {
+                "tag": "img",
+                "attributes": {
+                    "onclick": "recaptcha();",
+                    "src": "https://juara303.club/assets/images/refresh.png",
+                    "alt": "refresh"
+                }
+            },
+            {
+                "tag": "select",
+                "label": "Nama Bank",
+                "attributes": {
+                    "id": "bank",
+                    "name": "bank"
+                },
+                "option": [
+                    { "value": "0", "text": "Silakan Pilih" },
+                    { "value": "1", "text": "BCA - Bank Central Asia" },
+                    { "value": "2", "text": "MANDIRI - Bank Mandiri" },
+                    { "value": "3", "text": "BNI - Bank Negara Indonesia" },
+                    { "value": "4", "text": "BRI - Bank Rakyat Indonesia" },
+                    { "value": "5", "text": "BTN - Bank Tabungan Negara" },
+                    { "value": "6", "text": "PERMATA - Bank Permata" },
+                    { "value": "7", "text": "DANAMON - Bank Danamon" },
+                    { "value": "8", "text": "BPD - Bank Pembangunan Daerah" },
+                    { "value": "9", "text": "BII - Bank BII" },
+                    { "value": "10", "text": "BUKOPIN - Bank Bukopin" },
+                    { "value": "11", "text": "CITIBANK - Citibank" },
+                    { "value": "12", "text": "HSBC - Bank HSBC" },
+                    { "value": "13", "text": "MEGA - Bank Mega" },
+                    { "value": "14", "text": "NIAGA - Bank CIMB Niaga" },
+                    { "value": "15", "text": "OCBC - Bank OCBC NISP" },
+                    { "value": "16", "text": "PANIN - Bank Panin" },
+                    { "value": "17", "text": "UOB - Bank UOB Indonesia" },
+                    { "value": "18", "text": "OTHERS - Lain-lain" }
+                ]
+            },
+            {
+                "label": "Mata Uang",
+                "tag": "input",
+                "attributes": {
+                    "type": "text",
+                    "name": "currency",
+                    "value": "IDR",
+                    "readonly": "readonly"
+                }
+            },
+            {
+                "tag": "input",
+                "label": "Nama Rekening",
+                "attributes": {
+                    "type": "text",
+                    "name": "fullname",
+                    "id": "fullname"
+                }
+            },
+            {
+                "tag": "input",
+                "label": "Nomor Rekening",
+                "attributes": {
+                    "type": "text",
+                    "name": "reknumber",
+                    "id": "reknumber"
+                }
+            },
+            {
+                "label": "Button",
+                "tag": "button",
+                "attributes": {
+                    "type": "submit"
+                }
+            },
+            {
+                "label": "Notes",
+                "tag": "ul",
+                "li": [
+                    "Anda berusia minimal 18 tahun",
+                    "Masukkan informasi yang valid",
+                    "Data anda aman bersama kami"
+                ]
+            }
+        ]
+    }
+
+]
